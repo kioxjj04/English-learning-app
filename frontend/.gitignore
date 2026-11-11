@@ -1,0 +1,42 @@
+# Dependencies
+**/node_modules/
+package-lock.json.bak
+
+# Expo & Metro
+**/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
+.metro-health-check*
+
+# Backend build & database
+backend/dist/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# Native builds
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Logs & temp
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+.DS_Store
+*.pem
